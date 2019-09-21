@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>Instabored</title>
+</head>
+<!--
+    The Goal of this project is to be able to execute action on the instagram 
+    application without needing to perform the action myself.
+    Problem: Instagram is a cumbersome activity with a set of repeating task. 
+    If I can automate this part of my life then I will not need to perform 
+    repeated task over and over again.
+-->
+
+<body>
+    <!-- TODO: Add login action script-->
+    <!-- TODO: Remove forgot password OR link to instagram for them to reset-->
+    <!-- TODO: Remove "remember me?"-->
+    <form action="#" method="post">
+        <div class="imgcontainer">
+            <img src="images/unamused-face.png" alt="Smiley Logo" class="avatar">
+        </div>
+        <div class="imgcontainer">
+            <img src="images/Instabred.png" alt="Instabored Logo" class="loginlogo">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+</body>
+
+</html>
